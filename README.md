@@ -1,4 +1,5 @@
-# AndrocitySmurf.github.io
+# Currently undergoing mantainance
 
-hello, I am Andrew
-I like computer science
+Andrew Ink
+andrewenkh101@gmail.com
+800022294@fjuhsd.org
