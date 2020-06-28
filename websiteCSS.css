@@ -129,7 +129,7 @@ body {
     width: 0;
   }
   to {
-    width: 9.45em;
+    width: 9.30em;
   }
 }
 
@@ -140,4 +140,16 @@ body {
   to {
     border-right-color: transparent;
   }
+}
+
+.secondarybuttons {
+  float:right
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
