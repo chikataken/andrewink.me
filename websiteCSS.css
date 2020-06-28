@@ -78,11 +78,16 @@ body {
  * Cover
  */
 .cover {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+}
+
+.center {
+  transform:translateY(-15%)
 }
 
 /*
