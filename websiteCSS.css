@@ -43,6 +43,21 @@ body {
   max-width: 42em;
 }
 
+.discordwidget {
+  transform:translateY(-10%);
+}
+
+.about {
+  transform:translateY(-300%);
+  text-align:left;
+}
+
+.logo {
+  position: absolute;
+  top: 120px;
+  right: 500px;
+}
+
 /*
  * Header
  */
@@ -55,7 +70,7 @@ body {
   float:left;
 }
 
-.footerinner {
+.footer {
   font-size: 1em
 }
 
@@ -113,3 +128,55 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* fade in */
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}@keyframes fadeIn {
+   0% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+ }
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
