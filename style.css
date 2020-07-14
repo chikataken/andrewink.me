@@ -7,7 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     transform: translateY(220px);
-    transition: width 1.5s, height 1s
+    transition: width 1.5s, height 1s;
 }
 
 .mainContainer:hover {
@@ -29,7 +29,7 @@
 .sansserif {
     font-family: Helvetica, sans-serif;
     color: white;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .fontWeight {
@@ -41,7 +41,26 @@
     top: 50%;
     left: 50%;
     margin: 0 -50% 0 0;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+
+.footerText {
+    transform: translateY(460px);
 }
 
 /*transitions: https://thoughtbot.com/blog/transitions-and-transforms*/
